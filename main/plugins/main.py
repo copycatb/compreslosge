@@ -363,7 +363,7 @@ async def _240(event):
         os.rmdir("encodemedia")
         await set_timer(event, process1, timer) 
     else:
-        await event.edit(f"Another process in progress!\n\n**[LOG CHANNEL](https://t.me/{LOG_CHANNEL})**", link_preview=False)
+        await event.edit(f"Another process in progress!use @Videocompressencoderkashur_bot @Fast_videocompressor_bot @video_encoder_kashur_bot  \n\n**[LOG CHANNEL](https://t.me/{LOG_CHANNEL})**", link_preview=False)
         
 @Drone.on(events.callbackquery.CallbackQuery(data="360"))
 async def _360(event):
